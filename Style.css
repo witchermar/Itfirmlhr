@@ -1,67 +1,87 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>ItfirmIhr – Guest Post & SEO Services</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
 
-  <!-- SEO Meta -->
-  <meta name="description" content="High authority guest post backlinks on .EDU, .GOV & High DA .COM sites. 100% dofollow, permanent & indexed links.">
-  <meta name="keywords" content="guest post services, high da backlinks, edu backlinks, gov backlinks, seo services">
+/* Header */
+header {
+  background: #0a2540;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+  color: #fff;
+  padding: 70px 20px;
+  text-align: center;
+}
 
-<header>
-  <h1>ItfirmIhr</h1>
-  <p>High-Authority Guest Post & SEO Services</p>
-</header>
+.hero .btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 30px;
+  background: #fff;
+  color: #1d4ed8;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
 
-<section class="hero">
-  <h2>Powerful Backlinks That Rank</h2>
-  <p>.EDU | .GOV | .UK | High DA .COM Sites</p>
-  <a href="https://t.me/gstly" class="btn">Contact on Telegram</a>
-</section>
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
 
-<section>
-  <h2>Our Services</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Guest Posting</h3>
-      <p>Premium backlinks from niche-relevant, high authority websites.</p>
-    </div>
-    <div class="card">
-      <h3>SEO Backlinks</h3>
-      <p>White-hat, permanent dofollow links for long-term rankings.</p>
-    </div>
-    <div class="card">
-      <h3>Website Audit</h3>
-      <p>Technical & on-page SEO audit to boost site performance.</p>
-    </div>
-  </div>
-</section>
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-<section class="features">
-  <h2>Why Choose Us?</h2>
-  <ul>
-    <li>✔ DA 50–90+ Authority Sites</li>
-    <li>✔ 100% Dofollow & Indexed Links</li>
-    <li>✔ Permanent Backlinks</li>
-    <li>✔ Manual Outreach & Unique Content</li>
-    <li>✔ Bulk & Reseller Friendly</li>
-  </ul>
-</section>
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
 
-<section class="contact">
-  <h2>Get in Touch</h2>
-  <p>Telegram: <strong>@gstly</strong></p>
-  <p>WhatsApp: <strong>+92 332 9600740</strong></p>
-</section>
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: center;
+}
 
-<footer>
-  <p>© 2026 ItfirmIhr | All Rights Reserved</p>
-</footer>
+/* Features */
+.features ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
 
-</body>
-</html>
+.features li {
+  padding: 10px 0;
+  font-size: 18px;
+}
 
+/* Contact */
+.contact {
+  background: #e5e7eb;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #0a2540;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
